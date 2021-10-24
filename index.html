@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Свойства Flex-контейнера и элемента</title>
+    <link rel="stylesheet" href="hw6/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title">
+        <p>Свойства Flex-контейнера</p>
+    </div>
+    <hr>
+
+    <div class="first">
+        <div>
+            <div class="left_one">
+                <p class="name">display: flex;</p>
+                <br>
+                <p class="name1">display: -webkit-flex</p>
+                <p>Назначение: запуск механизма Flexbox</p>
+                <p>Возможные значения: flex / inline-flex;</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="right">
+
+                <div class="blocks">
+                    <div class="name2">
+                        <p>flex</p>
+                    </div>
+                    <div class="right_one1">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                </div>
+                <div class="blocks">
+                    <div class="name2">
+                        <p>inline-flex</p>
+                    </div>
+                    <div class="right_one2">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="left_two">
+                <p class="name">flex-direction: row;</p>
+                <br>
+                <p class="name1">-webkit-flex-direction: row;</p>
+                <p>Назначение: направление укладки элементов по осям</p>
+                <p>Возможные значения: row / row-reverse / column / column-reverse;</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="right">
+
+                <div class="blocks">
+                    <div>
+                        <div class="name2">
+                            <p>row</p>
+                        </div>
+                        <div class="row1">
+                            <div class="block"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="name2">
+                            <p>column</p>
+                        </div>
+                        <div class="row3">
+                            <div class="block"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="blocks">
+
+                    <div>
+                        <div class="name2">
+                            <p>row-reverse</p>
+                        </div>
+                        <div class="row2">
+                            <div class="block"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="name2">
+                            <p>column-reverse</p>
+                        </div>
+                        <div class="row4">
+                            <div class="block"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="left_three">
+                <p class="name">flex-wrap: nowrap;</p>
+                <br>
+                <p class="name1">-webkit-flex-wrap: nowrap;</p>
+                <p>Назначение: расположение элементов в одну или несколько строк</p>
+                <p>Возможные значения: nowrap / wrap / wrap-reverse;</p>
+            </div>
+        </div>
+
+        <div class="blocks">
+            <div class="name2">
+                <p>nowrap</p>
+            </div>
+            <div class="right_three1">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="name2">
+                <p>wrap</p>
+            </div>
+            <div class="right_three2">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+
+        </div>
+
+        <div class="blocks">
+            <div class="name2 ">
+                <p>wrap</p>
+            </div>
+            <div class="right_three3 ">
+                <div class="block "></div>
+                <div class="block "></div>
+                <div class="block "></div>
+                <div class="block "></div>
+                <div class="block "></div>
+                <div class="block "></div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="fourth">
+                <p class="name">flex-flow: row nowrap;</p>
+                <br>
+                <p class="name1">-webkit-flex-flow-nowrap: nowrap;</p>
+                <p>Назначение: сокращенная запись для свойств flex-direction и flex-wrap</p>
+                <p>Возможные значения: см.свойства 2 и 3</p>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="first">
+        <div>
+            <div class="fifth">
+                <p class="name">justify-content: flex-start;</p>
+                <br>
+                <p class="name1">-webkit-justify-content-flex-start: nowrap;</p>
+                <p>Назначение: Выравнивание flex элементов по главной оси текущей строки</p>
+                <p>Возможные значения: flex-start / flex-end / center / space-between / space-around</p>
+            </div>
+        </div>
+
+        <div class="blocks">
+            <div class="name2">
+                <p>flex-start</p>
+            </div>
+            <div class="fifht1">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="name2">
+                <p>flex-end</p>
+            </div>
+            <div class="fifht2">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="name2">
+                <p>center</p>
+            </div>
+            <div class="fifht3">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <div class="name2">
+                <p>space-between</p>
+            </div>
+            <div class="fifht4">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="name2">
+                <p>space-around</p>
+            </div>
+            <div class="fifht5">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="sixth">
+                <p class="name">align-items: stretch;</p>
+                <br>
+                <p class="name1">-webkit-align-items-stretch;</p>
+                <p>Назначение: Выравнивание flex элементов вдоль поперечной оси</p>
+                <p>Возможные значения: stretch/ flex-start / flex-end / center / baseline</p>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="name2">
+                <p>stretch</p>
+            </div>
+            <div class="sixth1">
+                <div class=" forsixth2"></div>
+                <div class="block "></div>
+                <div class=" forsixth1 "></div>
+            </div>
+            <div class="name2 ">
+                <p>flex-start</p>
+            </div>
+            <div class="sixth2 ">
+                <div class="forsixth2 "></div>
+                <div class="forsixth1"></div>
+                <div class="block "></div>
+            </div>
+        </div>
+        <div class="blocks ">
+            <div class="name2 ">
+                <p>flex-end</p>
+            </div>
+            <div class="sixth3 ">
+                <div class="block "></div>
+                <div class="forsixth2"></div>
+                <div class="forsixth3 "></div>
+            </div>
+            <div class="name2 ">
+                <p>center</p>
+            </div>
+            <div class="sixth4 ">
+                <div class="forsixth1"></div>
+                <div class="forsixth3 "></div>
+                <div class="block "></div>
+            </div>
+        </div>
+        <div class="blocks ">
+            <div class="name2 ">
+                <p>baseline</p>
+            </div>
+            <div class="sixth5 ">
+                <div class="forsixth1 "></div>
+                <div class="forsixth2 "></div>
+                <div class="forsixth3 "></div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+
+    <div class="first ">
+        <div>
+            <div class="seventh ">
+                <p class="name ">align-content: stretch;</p>
+                <br>
+                <p class="name1 ">-webkit-justify-content-flex-start: nowrap;</p>
+                <p>Назначение: Выравнивание flex элементов вдоль поперечной оси</p>
+                <p>Возможные значения: stretch/ flex-start / flex-end / center / space-between / space-around</p>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="name2">
+                <p>stretch</p>
+            </div>
+            <div class="seventh1">
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+            </div>
+            <div class="name2">
+                <p>flex-start</p>
+            </div>
+            <div class="seventh2">
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="name2">
+                <p>flex-end</p>
+            </div>
+            <div class="seventh3">
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+            </div>
+            <div class="name2">
+                <p>center</p>
+            </div>
+            <div class="seventh4">
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="name2">
+                <p>space-between</p>
+            </div>
+            <div class="seventh5">
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+            </div>
+            <div class="name2">
+                <p>space-around</p>
+            </div>
+            <div class="seventh6">
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+                <div class="block1"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="title">
+        <p>Свойства Flex-элемента</p>
+    </div>
+    <hr>
+
+    <div class="first">
+        <div>
+            <div class="part_two1">
+                <p class="name ">order: 0;</p>
+                <br>
+                <p class="name1 ">-webkit-order-0;</p>
+                <p>Назначение: Определение порядка постановки flex элементов</p>
+                <p>Возможные значения: (целое число)</p>
+            </div>
+        </div>
+        <div>
+            <div class="right">
+
+                <div class="blocks">
+                    <div class="name2">
+                        <p>order 0 order 1</p>
+                    </div>
+                    <div class="order">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div class="name2">
+                        <p>order: -1 order: 0 rder:2</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="part_two2">
+                <p class="name ">flex-grow: 0;</p>
+                <br>
+                <p class="name1 ">-webkit-flex-grow-0;</p>
+                <p>Назначение: Указывает фактор растягивания flex элементов</p>
+                <p>Возможные значения: (целое неотрицательное число)</p>
+            </div>
+        </div>
+        <div>
+            <div class="right">
+
+                <div class="blocks">
+
+                    <div class="flexflow">
+                        <div class="block3"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div class="name2">
+                        <p>flex-grow: 1</p>
+                    </div>
+                </div>
+                <div class="blocks">
+
+                    <div class="flexflow">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block4"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div class="name2">
+                        <p>flex-grow: 3</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="part_two3">
+                <p class="name ">flex-shrink: 1;</p>
+                <br>
+                <p class="name1 ">-webkit-flex-shrink-0;</p>
+                <p>Назначение: Указывает фактор сужения flex элементов</p>
+                <p>Возможные значения: 0</p>
+            </div>
+        </div>
+        <div>
+            <div class="right">
+
+                <div class="blocks">
+
+                    <div class="flexshrink">
+                        <div class="block"></div>
+                        <div class="flexshrink1"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div class="name2">
+                        <p>flex-shrink: 1</p>
+                    </div>
+
+                </div>
+                <div class="blocks">
+
+                    <div class="flexshrink">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="flexshrink2"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                    <div class="name2">
+                        <p>flex-shrink: 0</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="part_two4">
+                <p class="name ">flex-basis: auto;</p>
+                <br>
+                <p class="name1 ">-webkit-flex-basis auto;</p>
+                <p>Назначение: Указывает исходныйглавный размер flex элементов</p>
+                <p>Возможные значения: длина элемента в пикселях (к примеру, 240рх)</p>
+            </div>
+        </div>
+        <div class="right">
+
+            <div class="blocks">
+
+                <div class="flexbase">
+                    <div class="flexbase1"></div>
+                    <div class="flexbase1"></div>
+                    <div class="flexbase1"></div>
+                    <div class="flexbase1"></div>
+                    <div class="flexbase1"></div>
+                </div>
+                <div class="name2">
+                    <p>flex-base: auto</p>
+                </div>
+
+            </div>
+            <div class="blocks">
+
+                <div class="flexbase">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="flexbase2"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
+                <div class="name2">
+                    <p>flex-base: 240px</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="part_two5">
+                <p class="name ">flex: 0 1 auto;</p>
+                <br>
+                <p class="name1 ">-webkit-flex 0 1 auto;</p>
+                <p>Назначение: Сокращенная запись для свойств flex-grow, flex-shrink и flex-basis</p>
+                <p>Возможные значения: свойства 2,3 и 4</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="first">
+        <div>
+            <div class="part_two6">
+                <p class="name ">align-self: auto;</p>
+                <br>
+                <p class="name1 ">-webkit-align-self:auto;</p>
+                <p>Назначение: Определяет выравнивание элемента по умолчанию</p>
+                <p>Возможные значения: auto / flex-start / flex-end / center/ baseline / stretch</p>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="name2">
+                <p>align-self: flex-start</p>
+            </div>
+            <div class="alignself">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="alignself1"></div>
+                <div class="alignself2"></div>
+                <div class="block"></div>
+            </div>
+            <div class="name2">
+                <p>align-self: flex-end</p>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <footer>
+
+        <p>Малахова Кристина</p>
+
+        <img class="img" src="hw6/img/1.jpg" alt="Error">
+
+
+
+    </footer>
+
+
+</body>
+
+</html>
+
+</html>
+
+</html>
